@@ -10,7 +10,7 @@ ssh-keygen -q -t rsa -N '' -f ~/.ssh/id_rsa <<<y >/dev/null 2>&1
 
 #copy key to vagrant 
 sudo cp /home/vagrant/.ssh/id_rsa.pub /vagrant
-echo "Sleep for 1 minutes to complete running of execise5-fix_server2.sh"
+echo "Sleep for 1 minute to complete running of execise5-fix_server2.sh"
 sleep 2m  
 echo "Sleep completed, updating autorize key on server1"
 #run folloing command on server1 
