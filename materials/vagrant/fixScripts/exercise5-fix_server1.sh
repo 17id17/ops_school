@@ -12,4 +12,6 @@ echo "Sleep completed"
 #run folloing command on server1 
 sudo cat /vagrant/id_rsa.pub >> ~/.ssh/authorized_keys
 
-
+ssh server2
+exit
+ssh server1
